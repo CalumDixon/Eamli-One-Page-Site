@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+<meta charset ="utf-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Eamli One Page Marketing Prototype</title>
+<link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<div class="header-container">
+  <img src="images/eamli-logo.svg" alt="eamli-logo" class="logo" />
+
+<h3 class="eamli-intro-text">Introducing Eamli</h3>
+
+<h2 class="eamli-presentation-text">The go to tool for making smarter and faster business decisions in an ever-evolving and uncertain world</h2>
+
+</div>
+
+<div class="sign-up-section">
+
+<h3 class="sign-up-title">Sign up to recieve access to the Eamli Open Beta</h3>
+<p class="sign-up-desc">By signing up you can recieve access to the Eamli Open Beta giving you the chance to test
+out the product, also recieve the latest in Eamli News and Product Developments.</p>
+
+<div class="form-element">
+
+<input type="text" name="Email" placeholder="Your Email Here..." onclick='javascript: this.value = ""'  class="sign-up-input">
+<button class="white-outline-button">Sign Up</button>
+
+</div>
+
+</div>
+
+<img src="images/gif-for-eamli-site.gif" alt="dashboard" class="dashboard-image"/>
+</header>
+
+
+</div>
+
+<div class ="curve-section">
+<img src="images/curve.svg" alt="" class="header-curve"/>
+
+</div>
+
+<div class="content-container">
+
+<div class ="what-section">
+
+<h2 class="what-title">What Problem’s Does Eamli Fix?</h2>
+
+<div class="what-text">
+
+<p class="what-para">Semiotics taxidermy church-key lyft chicharrones cardigan waistcoat schlitz banjo sustainable letterpress slow-carb biodiesel. XOXO cred celiac sartorial. Swag venmo irony vegan cloud bread.</p>
+
+<p class="what-para">Semiotics taxidermy church-key lyft chicharrones cardigan waistcoat schlitz banjo sustainable letterpress slow-carb biodiesel. XOXO cred celiac sartorial. Swag venmo irony vegan cloud bread.</p>
+
+</div>
+
+</div>
+
+
+<div class="help-section">
+
+<h2 class="help-title">How Can Eamli Help You?</h2>
+
+<div class="help-content">
+
+<ul class="user-list">
+<li class="tablink active-tab" id="activeTab" onclick="openUser(event,'Startup')">Start Ups</li>
+<li class="tablink" id="activeTab" onclick="openUser(event,'MatureBusiness')">Mature Business</li>
+<li class="tablink" id="activeTab" onclick="openUser(event,'EnterpriseBusiness')">Enterprise Business</li>
+<li class="tablink"  id="activeTab" onclick="openUser(event,'Lender')">Lenders</li>
+<li class="tablink"  id="activeTab" onclick="openUser(event,'Investor')">Investors</li>
+<li class="tablink"  id="activeTab" onclick="openUser(event,'Advisor')">Advisors</li>
+<li class="tablink"  id="activeTab" onclick="openUser(event,'Accelerator')">Accelerators</li>
+<li class="tablink"  id="activeTab" onclick="openUser(event,'CreditRating')">Credit Rating Agencies</li>
+</ul>
+
+<div class="selected-user-card">
+
+  <div class="mobile-overflow-menu">
+
+    <ul class="overflow-user-list">
+    <li class="tablink active-tab"  id="activeTab" onclick="openUser(event,'Startup')">Start Ups</li>
+    <li class="tablink"  id="activeTab" onclick="openUser(event,'MatureBusiness')">Mature Business</li>
+    <li class="tablink"  id="activeTab" onclick="openUser(event,'EnterpriseBusiness')">Enterprise Business</li>
+    <li class="tablink"  id="activeTab" onclick="openUser(event,'Lender')">Lenders</li>
+    <li class="tablink"  id="activeTab" onclick="openUser(event,'Investor')">Investors</li>
+    <li class="tablink"  id="activeTab" onclick="openUser(event,'Advisor')">Advisors</li>
+    <li class="tablink"  id="activeTab" onclick="openUser(event,'Accelerator')">Accelerators</li>
+    <li class="tablink"  id="activeTab" onclick="openUser(event,'CreditRating')">Credit Rating Agencies</li>
+    </ul>
+
+  </div>
+
+<div id="Startup" class="user w3-animate-opacity">
+
+<img src="images/startup.svg" alt="a startup" class="selected-user-illustration"/>
+
+<h2>How Eamli can help Start-Up Level Businesses</h2>
+
+<p>Semiotics taxidermy church-key lyft chicharrones cardigan waistcoat schlitz banjo sustainable letterpress slow-carb biodiesel. XOXO cred celiac sartorial. Swag venmo irony vegan cloud bread.</p>
+
+<p><a href="www.google.com">Get in touch for futrther information</a><p>
+
+</div>
+
+<div id="MatureBusiness" class="user w3-animate-opacity" style="display:none">
+
+<img src="images/mature.svg" alt="a startup" class="selected-user-illustration"/>
+
+<h2>How Eamli can help Mature Level Businesses</h2>
+
+<p>Semiotics taxidermy church-key lyft chicharrones cardigan waistcoat schlitz banjo sustainable letterpress slow-carb biodiesel. XOXO cred celiac sartorial. Swag venmo irony vegan cloud bread.</p>
+
+<p><a href="www.google.com">Get in touch for futrther information</a><p>
+
+</div>
+
+<div id="EnterpriseBusiness" class="user" style="display:none">
+
+<img src="images/enterprise.svg" alt="a startup" class="selected-user-illustration"/>
+
+<h2>How Eamli can help Enterprise Level Businesses</h2>
+
+<p>Semiotics taxidermy church-key lyft chicharrones cardigan waistcoat schlitz banjo sustainable letterpress slow-carb biodiesel. XOXO cred celiac sartorial. Swag venmo irony vegan cloud bread.</p>
+
+<p><a href="www.google.com">Get in touch for futrther information</a><p>
+
+</div>
+
+<div id="Lender" class="user" style="display:none">
+
+<img src="images/lender.svg" alt="a startup" class="selected-user-illustration"/>
+
+<h2>How Eamli can help Lenders</h2>
+
+<p>Semiotics taxidermy church-key lyft chicharrones cardigan waistcoat schlitz banjo sustainable letterpress slow-carb biodiesel. XOXO cred celiac sartorial. Swag venmo irony vegan cloud bread.</p>
+
+<p><a href="www.google.com">Get in touch for futrther information</a><p>
+
+</div>
+
+<div id="Investor" class="user" style="display:none">
+
+<img src="images/investor.svg" alt="a startup" class="selected-user-illustration"/>
+
+<h2>How Eamli can help Investors</h2>
+
+<p>Semiotics taxidermy church-key lyft chicharrones cardigan waistcoat schlitz banjo sustainable letterpress slow-carb biodiesel. XOXO cred celiac sartorial. Swag venmo irony vegan cloud bread.</p>
+
+<p><a href="www.google.com">Get in touch for futrther information</a><p>
+
+</div>
+
+<div id="Advisor" class="user" style="display:none">
+
+<img src="images/advisor.svg" alt="a startup" class="selected-user-illustration"/>
+
+<h2>How Eamli can help Advisors</h2>
+
+<p>Semiotics taxidermy church-key lyft chicharrones cardigan waistcoat schlitz banjo sustainable letterpress slow-carb biodiesel. XOXO cred celiac sartorial. Swag venmo irony vegan cloud bread.</p>
+
+<p><a href="www.google.com">Get in touch for futrther information</a><p>
+
+</div>
+
+
+<div id="Accelerator" class="user" style="display:none">
+
+<img src="images/accelerator.svg" alt="a startup" class="selected-user-illustration"/>
+
+<h2>How Eamli can help Accelerators</h2>
+
+<p>Semiotics taxidermy church-key lyft chicharrones cardigan waistcoat schlitz banjo sustainable letterpress slow-carb biodiesel. XOXO cred celiac sartorial. Swag venmo irony vegan cloud bread.</p>
+
+<p><a href="www.google.com">Get in touch for futrther information</a><p>
+
+</div>
+
+<div id="CreditRating" class="user" style="display:none">
+
+<img src="images/credit.svg" alt="a startup" class="selected-user-illustration"/>
+
+<h2>How Eamli can help Credit Rating Agencies</h2>
+
+<p>Semiotics taxidermy church-key lyft chicharrones cardigan waistcoat schlitz banjo sustainable letterpress slow-carb biodiesel. XOXO cred celiac sartorial. Swag venmo irony vegan cloud bread.</p>
+
+<p><a href="www.google.com">Get in touch for futrther information</a><p>
+
+</div>
+
+
+</div>
+
+</div>
+
+
+</div>
+
+<div class="decisions-section">
+
+<h2 class="decisions-title">Types of decisions Eamli can help you make</h2>
+
+
+  <div class ="decision-type-container">
+
+    <img src="images/market-icon.svg" alt="money icon" class="decision-icon"/>
+
+    <h3 class="decision-title">Marketing Decisions</h3>
+
+  </div>
+
+
+  <div class ="decision-type-container">
+
+    <img src="images/money-icon.svg" alt="money icon" class="decision-icon"/>
+
+    <h3 class="decision-title">Funding Decisions</h3>
+
+  </div>
+
+  <div class ="decision-type-container">
+
+    <img src="images/dev-icon.svg" alt="money icon" class="decision-icon"/>
+
+    <h3 class="decision-title">Development Decisions</h3>
+
+  </div>
+
+  <div class ="decision-type-container">
+
+    <img src="images/money-icon.svg" alt="money icon" class="decision-icon"/>
+
+    <h3 class="decision-title">Investment Decisions</h3>
+
+  </div>
+
+
+  <div class ="decision-type-container">
+
+    <img src="images/price-icon.svg" alt="money icon" class="decision-icon"/>
+
+    <h3 class="decision-title">Pricing Decisions</h3>
+
+  </div>
+
+
+  <div class ="decision-type-container">
+
+    <img src="images/research-icon.svg" alt="money icon" class="decision-icon"/>
+
+    <h3 class="decision-title">Research Decisions</h3>
+
+  </div>
+
+
+  <div class ="decision-type-container">
+
+    <img src="images/money-icon.svg" alt="money icon" class="decision-icon"/>
+
+    <h3 class="decision-title">Sales Decisions</h3>
+
+  </div>
+
+
+  <div class ="decision-type-container">
+
+    <img src="images/expand-icon.svg" alt="money icon" class="decision-icon"/>
+
+    <h3 class="decision-title">Expansion Decisions</h3>
+
+  </div>
+
+
+  <div class ="decision-type-container">
+
+    <img src="images/aq-icon.svg" alt="money icon" class="decision-icon"/>
+
+    <h3 class="decision-title">Acquisition Decisions</h3>
+
+  </div>
+
+</div>
+
+
+
+<div class="features-section">
+
+  <div class ="curve-down">
+  <img src="images/curve-down.svg" alt="" class="footer-curve"/>
+
+  </div>
+
+<div class="feature-container">
+
+  <div class="eamli-score-card">
+<div class="eamli-score-content">
+    <img src="images/Eamli-Score-Icon.svg" alt="your eamli score" class="eamli-score-icon"/>
+
+
+    <div class="eamli-card-text">
+    <h3>Your Eamli Score</h3>
+    <p>Semiotics taxidermy church-key lyft chicharrones cardigan waistcoat schlitz banjo sustainable letterpress.</p>
+    </div>
+  </div>
+  </div>
+
+  <div class ="feature-card feature-card-postion-left">
+
+<img src="images/value-icon.svg" alt="value-icon" class="feature-icon"/>
+
+<h3 class="feature-title">Company Valuations</h3>
+
+<p class="feature-para">
+Semiotics taxidermy church-key lyft chicharrones cardigan waistcoat schlitz banjo sustainable letterpress.
+</p>
+
+</div>
+
+<div class ="feature-card feature-card-postion-right">
+
+<img src="images/scenario-icon.svg" alt="value-icon" class="feature-icon"/>
+
+<h3 class="feature-title">Scenarios</h3>
+
+<p class="feature-para">
+Semiotics taxidermy church-key lyft chicharrones cardigan waistcoat schlitz banjo sustainable letterpress.
+</p>
+
+</div>
+
+<div class ="feature-card feature-card-postion-left">
+
+<img src="images/reports-icon.svg" alt="value-icon" class="feature-icon"/>
+
+<h3 class="feature-title">Reports</h3>
+
+<p class="feature-para">
+Semiotics taxidermy church-key lyft chicharrones cardigan waistcoat schlitz banjo sustainable letterpress.
+</p>
+
+</div>
+
+<div class ="feature-card feature-card-postion-right">
+
+<img src="images/model-icon.svg" alt="value-icon" class="feature-icon"/>
+
+<h3 class="feature-title">Company Models</h3>
+
+<p class="feature-para">
+Semiotics taxidermy church-key lyft chicharrones cardigan waistcoat schlitz banjo sustainable letterpress.
+</p>
+
+</div>
+
+</div>
+
+  <div class="sign-up-section footer-version">
+
+  <h3 class="sign-up-title title-card-version">Sign up to recieve access to the Eamli Open Beta</h3>
+  <p class="sign-up-desc desc-card-version">By signing up you can recieve access to the Eamli Open Beta giving you the chance to test
+  out the product, also recieve the latest in Eamli News and Product Developments.</p>
+
+  <div class="form-element footer-element">
+
+  <input type="text" name="Email" placeholder="Your Email Here..." onclick='javascript: this.value = ""'  class="sign-up-input footer-input">
+  <button class="white-outline-button button-black-version">Sign Up</button>
+
+  </div>
+
+  </div>
+
+
+</div>
+
+</div>
+
+<footer>
+
+<h5>All rights reserved. Copyright Whitespace Ventures 2019.</h5>
+
+</footer>
+
+
+<!--
+<script>
+function openUser(userName) {
+  var i;
+  var x = document.getElementsByClassName("user");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(userName).style.display = "block";
+}
+</script>
+-->
+<script>
+function openUser(evt, animName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("user");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active-tab", "");
+  }
+  document.getElementById(animName).style.display = "block";
+  evt.currentTarget.className += " active-tab";
+}
+</script>
+
+</body>
+
+</html>
