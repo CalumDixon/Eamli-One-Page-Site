@@ -154,18 +154,10 @@ display: none;
     size:14px;
     family:'nunito', san-serif;
   }
-  &:hover {
-    background-color: $Background-Grey;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.05);
-    border:none;
-    transition: 250ms;
-    outline:none;
-    color:$Black;
-  }
   &:focus {
     background-color:#EFF4FC;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.05);
-    border:none;
+    border:1px solid $Primary-Blue;
     transition: 250ms;
     outline:none;
     color:$Black;
@@ -1029,6 +1021,7 @@ width:100%;
     line-height: 20px;
     width:48%;
     font-size:16px;
+    line-height: 24px
   }
 
   .help-section {
