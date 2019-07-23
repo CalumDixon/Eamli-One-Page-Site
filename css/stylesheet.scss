@@ -77,12 +77,59 @@ header {
   padding: 0;
 }
 
+.logo-container {
+  width:90%;
+  padding-top: 10px;
+  margin:0 auto;
+  display:block;
+
+}
+
+.logo-container h3 {
+  font-size:14px;
+  margin:0;
+  color:white;
+  display: inline-block;
+}
+
+.email-icon{
+  width:16px;
+  margin-right:10px;
+  transform: translateY(1px);
+}
+
 .logo {
   height:20px;
+  margin:0;
   padding:0;
-  padding-top:20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   animation: onLoadFade;
-  animation-duration: 1.25s
+  animation-duration: 1.25s;
+  display: inline-block;
+  align-self: center;
+}
+
+.email-link-container {
+  float:right;
+  margin:0;
+  transition: 100ms;
+  display: block;
+  background:none;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: {
+    top:10px;
+    bottom:10px;
+    left:20px;
+    right:20px;
+  }
+&:hover {
+ background:$Primary-Blue;
+ transition: 100ms ease-in-out;
+ box-shadow: 0px 5px 10px rgba(0,0,0,0.05);
+
+}
 }
 
 .eamli-presentation-text {
@@ -186,13 +233,13 @@ display: none;
   background: none;
   color:$White;
   border-radius: 3px;
-  transition: background 250ms ease-in-out,
-              transform 150ms ease;
+  transition: background 100ms ease-in-out,
+              transform 100ms ease;
 &:hover{
   background: $White;
   border: 2px solid $White;
-  transition: background 250ms ease-in-out,
-                transform 150ms ease;;
+  transition: background 100ms ease-in-out,
+                transform 100ms ease;;
   color:$Primary-Blue;
       box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
 }
@@ -246,6 +293,15 @@ display: none;
   z-index: 2;
 }
 
+.image-curve {
+  width:100%;
+  margin:0;
+  padding: 0;
+  position: relative;
+  margin-top: -500px;
+  z-index: 2;
+}
+
 .header-curve img{
   margin:0;
   padding: 0;
@@ -258,6 +314,14 @@ display: none;
   padding: 0;
   position: relative;
   background-color: $Background-Grey
+}
+
+.image-curve-section {
+  width:100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  margin-top: -2px;
 }
 
 
@@ -280,8 +344,9 @@ display: none;
   .mobile-overflow-menu {
     display: block;
     overflow-x: scroll;
+    padding-left: 15px;
+    padding-right: 15px;
     border-bottom: 1px solid #E6E7E9;
-    margin-bottom: 20px;
   }
 
   .overflow-user-list {
@@ -313,23 +378,29 @@ display: none;
 
   .selected-user-card {
     background-color: $White;
+    overflow: hidden;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
     margin-top: 25px;
     width:100%;
     border-radius: 5px;
-    padding: {
-      left:15px;
-      right:15px;
-      top:0px;
-      bottom:25px;
-    }
     box-sizing: border-box;
   }
 
+  .user-card-padding  {
+    padding: {
+      left:15px;
+      right:15px;
+      top:10px;
+      bottom:25px;
+    }
+  }
+
   .selected-user-illustration {
-    width:60%;
+    width:100%;
     margin: 0 auto;
     display: block;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
   }
 
   .selected-user-card p {
@@ -540,13 +611,18 @@ footer h5 {
     margin:0;
     padding: 0;
   }
+  .logo-container {
+    padding-top: 20px;
+  }
+
+  .logo-container h3 {
+    font-size:15px;
+  }
 
   .logo {
-    height:20px;
-    padding:0;
-    padding-top:20px;
-    animation: onLoadFade;
-    animation-duration: 1.25s
+    height:25px;
+    padding-top:10px;
+    padding-bottom: 10px;
   }
 
   .eamli-presentation-text {
@@ -672,6 +748,9 @@ footer h5 {
   .selected-user-card {
     grid-column: 3/7;
     margin-top: 25px;
+  }
+
+  .user-card-padding  {
     padding: {
       left:20px;
       right:20px;
@@ -770,17 +849,35 @@ width:100%;
 
 @media (min-width:1024px) {
 
+
+
+  .logo-container {
+    width:90%;
+    padding-top: 20px;
+    margin:0 auto;
+    display:block;
+
+  }
+
+  .logo-container h3 {
+    font-size:16px;
+    margin:0;
+    color:white;
+    display: inline-block;
+  }
+
+  .logo {
+    height:30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+  }
+
   .container {
     width:100%;
   }
 
   .header-container {
     width:70%;
-  }
-
-  .logo {
-    height:25px;
-    margin-top: 15px;
   }
 
   .eamli-presentation-text {
@@ -836,12 +933,12 @@ width:100%;
     padding-bottom: 10px;
   }
 
-  .selected-user-card {
+  .user-card-padding  {
     padding: {
       left:20px;
       right:20px;
       bottom:30px;
-      top:30px;
+      top:20px;
     }
   }
 
@@ -946,6 +1043,27 @@ width:100%;
 
 @media (min-width:1440px){
 
+  .logo-container {
+    width:90%;
+    padding-top: 25px;
+    margin:0 auto;
+    display:block;
+
+  }
+
+  .logo-container h3 {
+    font-size:18px;
+    margin:0;
+    color:white;
+    display: inline-block;
+  }
+
+  .logo {
+    height:35px;
+    padding-top:10px;
+    padding-bottom: 10px;
+  }
+
   .container {
     width:100%;
   }
@@ -955,8 +1073,15 @@ width:100%;
   }
 
   .logo {
-    height:25px;
-    margin-top: 15px;
+    height:35px;
+  }
+
+  .help-title {
+    font-size:25px;
+  }
+
+  .decisions-title {
+    font-size:25px;
   }
 
   .eamli-presentation-text {
@@ -965,12 +1090,12 @@ width:100%;
   }
 
   .eamli-intro-text {
-  font-size: 24px;
+  font-size: 25px;
   margin-top: 75px;
   }
 
   .sign-up-title {
-    font-size:24px;
+    font-size:25px;
   }
 
   .sign-up-desc {
@@ -979,6 +1104,10 @@ width:100%;
 
   .selected-user-card p {
     font-size:16px;
+  }
+
+  .selected-user-card h2 {
+    font-size:20px;
   }
 
   .feature-card p {
@@ -1005,7 +1134,7 @@ width:100%;
 
   .what-title {
     text-align: center;
-    font-size:20px;
+    font-size:25px;
   }
 
   .what-text {
@@ -1035,14 +1164,15 @@ width:100%;
     padding-bottom: 10px;
   }
 
-  .selected-user-card {
+  .user-card-padding  {
     padding: {
       left:30px;
       right:30px;
       bottom:30px;
-      top:30px;
+      top:15px;
     }
   }
+
 
   .decisions-section {
     width:55%;
@@ -1104,13 +1234,6 @@ width:100%;
     width:40%;
   }
 
-  .logo {
-    height:35px;
-    margin-top: 15px;
-    display: block;
-    margin:0 auto;
-  }
-
   .eamli-presentation-text {
   font-size: 42px;
   line-height: 56px;
@@ -1168,12 +1291,12 @@ width:100%;
     font-size:22px;
   }
 
-  .selected-user-card {
+  .user-card-padding  {
     padding: {
       left:30px;
       right:30px;
       bottom:30px;
-      top:30px;
+      top:15px;
     }
   }
 
