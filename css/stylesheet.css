@@ -129,6 +129,15 @@ header {
     transition: 250ms;
     outline: none;
     color: #2A2B2C; }
+  .sign-up-input:focus {
+    background-color: #EFF4FC;
+    -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    border: none;
+    -webkit-transition: 250ms;
+    transition: 250ms;
+    outline: none;
+    color: #2A2B2C; }
 
 .white-outline-button {
   display: inline-block;
@@ -840,6 +849,18 @@ footer h5 {
   .sign-up-title {
     font-size: 24px; }
 
+  .sign-up-desc {
+    font-size: 16px; }
+
+  .selected-user-card p {
+    font-size: 16px; }
+
+  .feature-card p {
+    font-size: 16px; }
+
+  .eamli-score-card p {
+    font-size: 16px; }
+
   .sign-up-section {
     width: 50%;
     margin-top: 75px; }
@@ -875,7 +896,7 @@ footer h5 {
     display: inline-block;
     line-height: 20px;
     width: 48%;
-    font-size: 15px; }
+    font-size: 16px; }
 
   .help-section {
     width: 50%;
@@ -887,8 +908,8 @@ footer h5 {
     padding-bottom: 10px; }
 
   .selected-user-card {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-bottom: 30px;
     padding-top: 30px; }
 
