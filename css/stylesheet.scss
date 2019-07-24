@@ -36,6 +36,12 @@ body, html{
 
 }
 
+.user{
+  animation: w3-animate-opacity;
+  animation-duration:1s;
+  animation-timing-function: cubic-bezier(.45,.62);
+}
+
 h2 {
   font:{
     family:'Nunito', san-serif;
@@ -328,6 +334,12 @@ display: none;
     width:90%;
     margin: 0 auto;
     padding-top: 25px;
+
+    &:after {
+      content: "";
+  display: table;
+  clear: both;
+    }
   }
 
   .help-title {
@@ -376,8 +388,11 @@ display: none;
   }
 
   .selected-user-card {
+    animation: w3-animate-opacity;
+    animation-duration: 250ms;
     background-color: $White;
     overflow: hidden;
+    display: block;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
     margin-top: 25px;
     width:100%;
@@ -674,18 +689,13 @@ footer h5 {
 
   .help-section {
     width:80%;
+    display: block;
     margin:0 auto;
     padding-top:50px;
   }
 
   .help-title {
       font-size:20px;
-  }
-
-  .help-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-column-gap: 50px;
   }
 
 
@@ -707,7 +717,9 @@ footer h5 {
     padding:0;
     margin: 0;
     margin-top: 25px;
-    grid-column: 1/3;
+    margin-right:50px;
+    float:left;
+    width:40%;
   }
 
   .user-list li{
@@ -723,7 +735,9 @@ footer h5 {
   }
 
   .selected-user-card {
-    grid-column: 3/7;
+    float:left;
+    display: block;
+    width:calc(60% - 50px);
     margin-top: 25px;
   }
 
@@ -749,6 +763,7 @@ footer h5 {
 
   .decisions-section {
     width:80%;
+    padding-bottom: 75px;
   }
 
   .feature-container {
@@ -967,6 +982,7 @@ width:100%;
 
   .decisions-section {
     width:65%;
+    padding-bottom: 100px;
   }
 
     .feature-container {
