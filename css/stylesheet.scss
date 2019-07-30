@@ -151,7 +151,7 @@ header {
     right:20px;
   }
 &:hover {
- background:$Primary-Blue;
+ background:rgba(255,255,255,0.15);
  transition: 100ms ease-in-out;
  box-shadow: 0px 5px 10px rgba(0,0,0,0.05);
 
@@ -645,6 +645,7 @@ footer h5 {
   .eamli-presentation-text {
   font-size: 25px;
   line-height: 34px;
+  width:75%;
   }
 
   .eamli-intro-text {
@@ -653,7 +654,7 @@ footer h5 {
   }
 
   .sign-up-section {
-    width:80%;
+    width:50%;
   }
 
   .sign-up-desc {
@@ -894,7 +895,7 @@ width:100%;
   }
 
   .sign-up-section {
-    width:70%;
+    width:50%;
   }
   .dashboard-image{
     width:70%;
@@ -969,7 +970,7 @@ width:100%;
   }
 
   .sign-up-section {
-    width:60%;
+    width:50%;
   }
   .dashboard-image{
     width:60%;
@@ -1054,6 +1055,7 @@ width:100%;
   .eamli-presentation-text {
   font-size: 32px;
   line-height: 42px;
+  width:80%;
   }
 
   .eamli-intro-text {
@@ -1086,7 +1088,7 @@ width:100%;
   }
 
   .sign-up-section {
-    width:50%;
+    width:35%;
     margin-top: 75px;
   }
   .dashboard-image{
@@ -1172,7 +1174,7 @@ width:100%;
   }
 
   .header-container {
-    width:40%;
+    width:60%;
   }
 
   .eamli-presentation-text {
@@ -1195,7 +1197,7 @@ width:100%;
   }
 
   .sign-up-section {
-    width:40%;
+    width:35%;
     margin-top: 100px;
   }
   .dashboard-image{
