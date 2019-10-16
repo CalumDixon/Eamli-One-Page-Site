@@ -1,444 +1,250 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
-<meta charset ="utf-8">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Eamli</title>
-<link rel="stylesheet" href="css/stylesheet.css">
+  <meta charset="utf-8">
+  <title>Eamli</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Questrial|Roboto:400,500,700&display=swap" rel="stylesheet">
+
+<!-- Place favicon.ico in the root directory -->
+
+<link rel="stylesheet" href="CSS/stylesheet.css">
+
+<meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
-<div class="container">
+<nav>
+
+<img src="Images/Logo.svg" class="logo" alt="Eamli Brand"></>
+
+<a href="#sign-up-section"><button class="header-button">
+<img src="Images/lock-icon.svg" class="lock-icon" alt=""></img>
+Request Early Access
+</button></a>
+
+</nav>
 
 <header>
 
-  <div class="logo-container">
-  <img src="images/eamli-logo.svg" alt="eamli-logo" class="logo" />
-  <a href="mailto:hello@eamli.com">
-  <div class="email-link-container">
-  <img src="images/email-icon-white.svg" alt="email-icon" class="email-icon" />
-  <h3 class="email-link">hello@eamli.com</h3></a>
-  </div>
+  <div class="header-content">
+  <h1>Make smarter product, marketing, pricing, lending or investment decisions. <span class="blue-highlight">Ask eamli.</span></h1>
+  <p>Are you making life changing decisions based on complex, error prone and rigid spreadsheets? Move faster and gain a deeper understanding of any business with eamli.</p>
+
   </div>
 
-<div class="header-container">
+<img src="Images/device-image.png" class="header-image"></>
 
-<h3 class="eamli-intro-text">Introducing Eamli</h3>
-
-<h2 class="eamli-presentation-text">A decision making tool that puts the power of smart decision-making directly into the hands of business owners and managers.</h2>
-
-</div>
-
-<div class="sign-up-section">
-
-<h3 class="sign-up-title">Subscribe for early access</h3>
-<p class="sign-up-desc">We'll update you with all the latest Eamli news and product developments</p>
-
-
-<!-- Begin Mailchimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="https://space.us3.list-manage.com/subscribe/post?u=327b731f76bc76a30f42417dc&amp;id=598160442b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-
-<div class="form-element">
-    <input type="email" value="" name="EMAIL" class="required email sign-up-input" placeholder="Your Email Address Here..." id="mce-EMAIL">
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_327b731f76bc76a30f42417dc_598160442b" tabindex="-1" value=""></div>
-    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="white-outline-button">
-</form>
-  </div>
-</div>
-</div>
-<!--End mc_embed_signup-->
+<div class="header-content-mobile">
+<h1>Make smarter product, marketing, pricing, lending or investment decisions.<br> <span class="blue-highlight">Ask eamli.</span></h1>
+<p>Are you making life changing decisions based on complex, error prone and rigid spreadsheets? Move faster and gain a deeper understanding of any business with eamli.</p>
 
 </div>
 
-<img src="images/gif-for-eamli-site.gif" alt="dashboard" class="dashboard-image"/>
+<div id="particles-js" class="particle-js">
+  <div class="particle-fade"></div>
+</div>
+
 </header>
 
+<main>
+
+<div class="feature-section">
+
+<div class="feature-section-intro">
+
+<h1>Understand your business like never before</h1>
+<p>Putting the power of smart decision making directly into the hands of business owners and managers</p>
 
 </div>
-
-<div class ="curve-section">
-<img src="images/curve.svg" alt="" class="header-curve"/>
-
-</div>
-
-<div class="content-container">
-
-<div class="help-section">
-
-<h2 class="help-title">How Can Eamli Help You?</h2>
-
-<div class="help-content">
-
-<ul class="user-list">
-<li class="tablink active-tab" id="activeTab" onclick="openUser(event,'Startup')">SME's</li>
-<li class="tablink" id="activeTab" onclick="openUser(event,'EnterpriseBusiness')">Enterprise Business</li>
-<li class="tablink"  id="activeTab" onclick="openUser(event,'Lender')">Lenders</li>
-<li class="tablink"  id="activeTab" onclick="openUser(event,'Investor')">Investors</li>
-<li class="tablink"  id="activeTab" onclick="openUser(event,'Advisor')">Advisors</li>
-</ul>
-
-<div class="selected-user-card">
-
-  <div class="mobile-overflow-menu">
-
-    <ul class="overflow-user-list">
-    <li class="tablink active-tab"  id="activeTab" onclick="openUser(event,'Startup')">SME's</li>
-    <li class="tablink"  id="activeTab" onclick="openUser(event,'EnterpriseBusiness')">Enterprise Business</li>
-    <li class="tablink"  id="activeTab" onclick="openUser(event,'Lender')">Lenders</li>
-    <li class="tablink"  id="activeTab" onclick="openUser(event,'Investor')">Investors</li>
-    <li class="tablink"  id="activeTab" onclick="openUser(event,'Advisor')">Advisors</li>
-    </ul>
-
-  </div>
-
-<div id="Startup" class="user w3-animate-opacity">
-
-<img src="images/startup.jpg" alt="a startup" class="selected-user-illustration"/>
-<div class ="image-curve-section">
-<img src="images/image-curve.svg" alt="" class="image-curve"/>
-
-</div>
-
-<div class="user-card-padding">
-
-<h2>How Eamli can help SME Level Businesses</h2>
-
-<p>Founders benefit from making smarter decisions in a fast changing, complex and uncertain world. Eamli also helps align co-founders to ensure they have the same objectives as a team (via the Eamli-score).</p>
-
-<p><a href="mailto:hello@eamli.com">Get in touch for futrther information</a><p>
-
-</div>
-
-</div>
-
-<div id="EnterpriseBusiness" class="user" style="display:none">
-
-<img src="images/enterprise.jpg" alt="a startup" class="selected-user-illustration"/>
-<div class ="image-curve-section">
-<img src="images/image-curve.svg" alt="" class="image-curve"/>
-
-</div>
-
-<div class="user-card-padding">
-
-<h2>How Eamli can help Enterprise Level Businesses</h2>
-
-<p>The entire Enterprise benefits from Eamli as it deals with complexity very well and through the Eamli-score it helps to constantly align all areas of the Enterprise toward the overall objectives.</p>
-
-<p><a href="mailto:hello@eamli.com">Get in touch for futrther information</a><p>
-
-</div>
-
-</div>
-
-<div id="Lender" class="user" style="display:none">
-
-<img src="images/lender.jpg" alt="a startup" class="selected-user-illustration"/>
-<div class ="image-curve-section">
-<img src="images/image-curve.svg" alt="" class="image-curve"/>
-
-</div>
-
-<div class="user-card-padding">
-
-<h2>How Eamli can help Lenders</h2>
-
-<p>Banks benefit from using Eamli by helping them understand their customers’ business much better so they can work with their customer to make smarter and more value-add lending decisions.</p>
-
-<p><a href="mailto:hello@eamli.com">Get in touch for futrther information</a><p>
-
-</div>
-
-</div>
-
-<div id="Investor" class="user" style="display:none">
-
-<img src="images/investor.jpg" alt="a startup" class="selected-user-illustration"/>
-<div class ="image-curve-section">
-<img src="images/image-curve.svg" alt="" class="image-curve"/>
-
-</div>
-
-<div class="user-card-padding">
-
-<h2>How Eamli can help Investors</h2>
-
-<p>Investors benefit from using Eamli by receiving applications that have much richer and informative data. Investors can use Eamli for pre-screening, due diligence, investment assessment, portfolio management and exit planning.</p>
-
-<p><a href="mailto:hello@eamli.com">Get in touch for futrther information</a><p>
-
-</div>
-
-</div>
-
-<div id="Advisor" class="user" style="display:none">
-
-<img src="images/advisor.jpg" alt="a startup" class="selected-user-illustration"/>
-<div class ="image-curve-section">
-<img src="images/image-curve.svg" alt="" class="image-curve"/>
-
-</div>
-
-<div class="user-card-padding">
-
-<h2>How Eamli can help Advisors</h2>
-
-<p>Advisors benefit from using Eamli as they can sit down with clients and use Eamli together meaning they rapidly get to the heart of the decision-making process rather than spending time buried in a spreadsheet.</p>
-
-<p><a href="mailto:hello@eamli.com">Get in touch for futrther information</a><p>
-
-</div>
-
-</div>
-
-</div>
-
-
-<div id="Accelerator" class="user" style="display:none">
-
-<img src="images/accelerator.jpg" alt="a startup" class="selected-user-illustration"/>
-<div class ="image-curve-section">
-<img src="images/image-curve.svg" alt="" class="image-curve"/>
-
-</div>
-
-</div>
-
-</div>
-
-
-</div>
-
-<div class="decisions-section">
-
-<h2 class="decisions-title">Types of decisions Eamli can help you make</h2>
-
-
-  <div class ="decision-type-container">
-
-    <img src="images/market-icon.svg" alt="money icon" class="decision-icon"/>
-
-    <h3 class="decision-title">Marketing Decisions</h3>
-
-  </div>
-
-
-  <div class ="decision-type-container">
-
-    <img src="images/money-icon.svg" alt="money icon" class="decision-icon"/>
-
-    <h3 class="decision-title">Funding Decisions</h3>
-
-  </div>
-
-  <div class ="decision-type-container">
-
-    <img src="images/dev-icon.svg" alt="money icon" class="decision-icon"/>
-
-    <h3 class="decision-title">Development Decisions</h3>
-
-  </div>
-
-  <div class ="decision-type-container">
-
-    <img src="images/money-icon.svg" alt="money icon" class="decision-icon"/>
-
-    <h3 class="decision-title">Investment Decisions</h3>
-
-  </div>
-
-
-  <div class ="decision-type-container">
-
-    <img src="images/price-icon.svg" alt="money icon" class="decision-icon"/>
-
-    <h3 class="decision-title">Pricing Decisions</h3>
-
-  </div>
-
-
-  <div class ="decision-type-container">
-
-    <img src="images/research-icon.svg" alt="money icon" class="decision-icon"/>
-
-    <h3 class="decision-title">Research Decisions</h3>
-
-  </div>
-
-
-  <div class ="decision-type-container">
-
-    <img src="images/money-icon.svg" alt="money icon" class="decision-icon"/>
-
-    <h3 class="decision-title">Sales Decisions</h3>
-
-  </div>
-
-
-  <div class ="decision-type-container">
-
-    <img src="images/expand-icon.svg" alt="money icon" class="decision-icon"/>
-
-    <h3 class="decision-title">Expansion Decisions</h3>
-
-  </div>
-
-
-  <div class ="decision-type-container">
-
-    <img src="images/aq-icon.svg" alt="money icon" class="decision-icon"/>
-
-    <h3 class="decision-title">Acquisition Decisions</h3>
-
-  </div>
-
-</div>
-
-
-
-<div class="features-section">
-
-  <div class ="curve-down">
-  <img src="images/curve-down.svg" alt="" class="footer-curve"/>
-
-  </div>
 
 <div class="feature-container">
 
-  <div class="eamli-score-card">
-<div class="eamli-score-content">
-    <img src="images/Eamli-Score-Icon.svg" alt="your eamli score" class="eamli-score-icon"/>
+<div class="feature col-left col-3-left">
 
-
-    <div class="eamli-card-text">
-    <h3>Your Eamli Score</h3>
-    <p>Eamli takes the business’ current strategy runs simulations and generates an Eamli-score for that strategy and then provides a range of solutions for raising the Eamli-score.</p>
-    </div>
-  </div>
-  </div>
-
-  <div class ="feature-card feature-card-postion-left">
-
-<img src="images/value-icon.svg" alt="value-icon" class="feature-icon"/>
-
-<h3 class="feature-title">Company Valuations</h3>
-
-<p class="feature-para">
-Eamli offers free business valuations to all. So that they can see where they stand and start moving forward by improving their Eamli Score.
-</p>
+  <img src="Images/forecast-faster.svg" class="feature-icon"></>
+  <h2>Forecast 100 × Faster</h2>
+  <p>Create company forecasts in as little as 15 minutes. Eamli is the first tool designed from the ground up to replace the spreadsheet for financial modelling. </p>
 
 </div>
 
-<div class ="feature-card feature-card-postion-right">
+<div class="feature col-right col-3-middle">
 
-<img src="images/scenario-icon.svg" alt="value-icon" class="feature-icon"/>
-
-<h3 class="feature-title">Scenarios</h3>
-
-<p class="feature-para">
-Test out changes that impact your company to see what kind of influence they will have before committing them to your company model.
-</p>
+  <img src="Images/objective-based-scenarios.svg" class="feature-icon"></>
+  <h2>Objective Based Scenarios</h2>
+  <p>Test endless strategies against your company objectives. View how they impact your forecasting and company valuation. </p>
 
 </div>
 
-<div class ="feature-card feature-card-postion-left">
+<div class="feature col-left col-3-right">
 
-<img src="images/reports-icon.svg" alt="value-icon" class="feature-icon"/>
-
-<h3 class="feature-title">Reports</h3>
-
-<p class="feature-para">
-Eamli offers a simplified process for generating a company model, making it easier and faster for anyone with or without previous experience.
-</p>
+  <img src="Images/detailed-reporting.svg" class="feature-icon"></>
+  <h2>Detailed Reporting</h2>
+  <p>Detailed analysis of your business considering dependencies, uncertaintly and probabilities for a deeper understanding. </p>
 
 </div>
 
-<div class ="feature-card feature-card-postion-right">
+<div class="feature col-right">
 
-<img src="images/model-icon.svg" alt="value-icon" class="feature-icon"/>
+  <img src="Images/agile-decisions.svg" class="feature-icon"></>
+  <h2>Agile Decision-Making</h2>
+  <p>Align mangers and decision makers around company goals. Measure Decisions against your objectives and risks using the Eamli Score.</p>
 
-<h3 class="feature-title">Company Models</h3>
+</div>
 
-<p class="feature-para">
-Using Eamli it is simple and fast to generate reports, which can also be easily shared making it easier to stay aligned with team.
-</p>
+<div class="feature col-left">
+
+  <img src="Images/complex-simulations.svg" class="feature-icon"></>
+  <h2>Complex Simulations</h2>
+  <p>Eamli runs thousands of simulations to understand how risk factors, probabilities and uncertainty can impact your business strategy.</p>
+
+</div>
+
+<div class="feature col-right">
+
+  <img src="Images/eamli-score.svg" class="feature-icon"></>
+  <h2>Eamli Score</h2>
+  <p>Generate an Eamli score for your current strategy measured against your objectives and risk. Then, use your score to benchmark your strategy against alternative scenarios.</p>
 
 </div>
 
 </div>
 
-<div class="sign-up-section">
-
-<h3 class="sign-up-title">Subscribe for early access</h3>
-<p class="sign-up-desc">We'll update you with all the latest Eamli news and product developments</p>
-
-
-<!-- Begin Mailchimp Signup Form -->
-<div id="mc_embed_signup">
-<form action="https://space.us3.list-manage.com/subscribe/post?u=327b731f76bc76a30f42417dc&amp;id=598160442b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-
-<div class="form-element">
-    <input type="email" value="" name="EMAIL" class="required email sign-up-input" placeholder="Your Email Address Here..." id="mce-EMAIL">
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_327b731f76bc76a30f42417dc_598160442b" tabindex="-1" value=""></div>
-    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="white-outline-button">
-</form>
-  </div>
 </div>
-</div>
-<!--End mc_embed_signup-->
+
+<div class="testimonial-intro">
+
+<h1>Trusted by our customers</h1>
 
 </div>
 
+<div class="testimonial-scroll-section">
+
+  <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg" class="desktop-arrow-button-left desktop-arrow-button" onclick="plusSlides(-1)">
+  <circle cx="22.5801" cy="22.5625" r="22.5" fill="#E9EDF1"/>
+  <path d="M25.7769 18.2594L24.4551 16.9375L18.8301 22.5625L24.4551 28.1875L25.7769 26.8656L21.4832 22.5625L25.7769 18.2594Z" fill="#2A2B2C"/>
+  </svg>
+
+<div class="testimonial testionimal-1 mySlides">
+
+<img src="Images/byzgen-logo.svg" class="testimonial-logo" alt="Byzgen Brand"></>
+<p>“We were first introduced to Eamli as part of an InvestReady process. Unlike most company valuation platforms, Eamli doesn't just put your companies financial information into a usable format. Instead it helped me to make some material decisions on not just our cost-base, but also our structure and future commercial model. As a direct result of conclusions generated by Eamli, we were able to clearly see what services and products were likely to achieve the greatest returns on investment. This, in turn, informed what parts of the business we reinforced, and which we could dis-invest in - make or break decisions for any start-up or scale-up.”</p>
+<h3>Marcus Ralphs, CEO at Byzgen</h3>
 
 </div>
 
+<div class="testimonial testionimal-2 mySlides">
+
+<img src="Images/polystream-logo.svg" class="testimonial-logo" alt="Polystream Brand"></>
+<p>“Having worked with the Eamli team on a full analysis of our Series A business plan using the Eamli platform I was delighted with the level of insight that came out. We have leveraged the finding to rethink some strategic issues such as out sales strategy and will continue to benefit from the operational detail that the fine grain analysis surfaced - the platform really drills down deep.  The process was remarkably flexible and we didn't need to do a great deal more than use our existing plans and assumptions. Going forward I can see a good argument for using the tool as the main basis of our strategic business and forecasting.””</p>
+<h3>Bruce Grove, CEO at Polystream</h3>
+
 </div>
+
+
+<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg" class="desktop-arrow-button-right desktop-arrow-button" onclick="plusSlides(1)">
+<circle cx="22.7104" cy="22.5625" r="22.5" transform="rotate(180 22.7104 22.5625)" fill="#E9EDF1"/>
+<path d="M19.5136 26.8656L20.8355 28.1875L26.4604 22.5625L20.8355 16.9375L19.5136 18.2594L23.8073 22.5625L19.5136 26.8656Z" fill="#2A2B2C"/>
+</svg>
+
+</div>
+
+<div class="testimonial-buttons">
+
+  <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg" class="arrow-button left-button" onclick="plusSlides(-1)">
+  <circle cx="22.5801" cy="22.5625" r="22.5" fill="#E9EDF1"/>
+  <path d="M25.7769 18.2594L24.4551 16.9375L18.8301 22.5625L24.4551 28.1875L25.7769 26.8656L21.4832 22.5625L25.7769 18.2594Z" fill="#2A2B2C"/>
+  </svg>
+
+  <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg" class="arrow-button right-button" onclick="plusSlides(1)">
+  <circle cx="22.7104" cy="22.5625" r="22.5" transform="rotate(180 22.7104 22.5625)" fill="#E9EDF1"/>
+  <path d="M19.5136 26.8656L20.8355 28.1875L26.4604 22.5625L20.8355 16.9375L19.5136 18.2594L23.8073 22.5625L19.5136 26.8656Z" fill="#2A2B2C"/>
+  </svg>
+
+</div>
+
+</main>
 
 <footer>
 
-<h5>All rights reserved. Copyright Whitespace Ventures 2019.</h5>
+<div class="sign-up-footer" id="sign-up-section">
+
+<h1>Ready to make better business decisions?</h1>
+
+<p>Sign up to recieve the latest eamli news and product updates as well as the chance to access the Eamli Open Beta.</p>
+
+<!-- Begin Mailchimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="https://eamli.us3.list-manage.com/subscribe/post?u=327b731f76bc76a30f42417dc&amp;id=598160442b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address..." required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_327b731f76bc76a30f42417dc_598160442b" tabindex="-1" value=""></div>
+    <input type="submit" value="Request Early Access" name="subscribe" id="mc-embedded-subscribe" class="button">
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup-->
+</div>
+
+<div class="footer-info">
+
+<div class="footer-info-row-1">
+<img src="Images/Logo.svg" class="footer-logo" alt="Eamli Brand"></>
+</div>
+
+<div class="footer-info-row-2">
+<p>©2001-2019 All Rights Reserved. Eamli®</p>
+<a href="mailto:hello@emali.com"><p class="email-footer">hello@eamli.com</p></a>
+</div>
+
+
+</div>
 
 </footer>
 
+<script>
 
-<!--
-<script>
-function openUser(userName) {
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
   var i;
-  var x = document.getElementsByClassName("user");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
   }
-  document.getElementById(userName).style.display = "block";
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "inline-block";
+  dots[slideIndex-1].className += " active";
 }
+
 </script>
--->
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
 <script>
-function openUser(evt, animName) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("user");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active-tab", "");
-  }
-  document.getElementById(animName).style.display = "block";
-  evt.currentTarget.className += " active-tab";
-}
+particlesJS.load('particles-js',
+'particles.json', function() {
+  console.log('particles.json loaded...');
+});
 </script>
 
 </body>
